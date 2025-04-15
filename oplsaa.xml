@@ -238,7 +238,7 @@
   <Type name="opls_230" class="opls_230" element="C" mass="12.011"/>
   <Type name="opls_231" class="opls_231" element="C" mass="12.011"/>
   <Type name="opls_232" class="opls_232" element="C" mass="12.011"/>
-  <Type name="opls_233" class="opls_233" element="C" mass="12.011" def="[C;H3;X4][C](=O)[#6]", desc="C=O in acetophenone (CMe)", doi=""/>
+  <Type name="opls_233" class="opls_233" element="C" mass="12.011"/>
   <Type name="opls_234" class="opls_234" element="C" mass="12.011"/>
   <Type name="opls_235" class="C" element="C" mass="12.011" def="[C;X3]([O;X1])[N;X3]" desc="C=O in amide, dmf, peptide bond" overrides="opls_277" doi="10.1021/ja9621760"/>
   <Type name="opls_236" class="O" element="O" mass="15.9994" def="O[C;%opls_235]" desc="O: C=O in amide.   Acyl R on C in amide is neutral -" overrides="opls_278" doi="10.1021/ja9621760"/>
@@ -446,11 +446,11 @@
   <Type name="opls_435" class="opls_435" element="H" mass="1.008"/>
   <Type name="opls_436" class="opls_436" mass="0.0"/>
   <Type name="opls_437" class="opls_437" element="O" mass="15.9994"/>
-  <Type name="opls_440" class="opls_440" element="P" mass="30.97376", def="[P;X4](=O)([O])[O]" desc="tetrahedral phosphate P atom"/>
-  <Type name="opls_441" class="opls_441" element="O" mass="15.9994", def="[O;X1]=[P;X4]" desc="phosphoryl oxygen in dimethyl phosphate esters"/>
-  <Type name="opls_442" class="opls_442" element="O" mass="15.9994", def="[O;X2]([C;H3;X4])[P]" desc="ether oxygen in a methyl phosphate ester"/>
-  <Type name="opls_443" class="opls_443" element="C" mass="12.011", def="[C;H3;X4][O][P;X4]" desc="C in Me2PO4-, Me2PO4H dimetylphosphate"/>
-  <Type name="opls_444" class="opls_444" element="H" mass="1.008", def="[H][C;H3;X4][O][P]" desc="methyl hydrogens in dimethyl phosphate esters"/> # TODO add override for H in CH3?
+  <Type name="opls_440" class="opls_440" element="P" mass="30.97376"/>
+  <Type name="opls_441" class="opls_441" element="O" mass="15.9994"/>
+  <Type name="opls_442" class="opls_442" element="O" mass="15.9994"/>
+  <Type name="opls_443" class="opls_443" element="C" mass="12.011"/>
+  <Type name="opls_444" class="opls_444" element="H" mass="1.008"/>
   <Type name="opls_445" class="opls_445" element="P" mass="30.97376"/>
   <Type name="opls_446" class="opls_446" element="O" mass="15.9994"/>
   <Type name="opls_447" class="opls_447" element="O" mass="15.9994"/>
@@ -497,8 +497,8 @@
   <Type name="opls_490" class="CT" element="C" mass="12.011" def="[C;X4]([O;%opls_467])(H)(H)C" overrides="opls_182" desc="ethoxy carbon; C(H2OS) ethyl ester" doi="10.1002/jcc.1092"/>
   <Type name="opls_491" class="opls_491" element="C" mass="12.011"/>
   <Type name="opls_492" class="opls_492" element="C" mass="12.011"/>
-  <Type name="opls_493" class="opls_493" element="S" mass="32.06" def="[S;X4](=O)(=O)([C])[C]" desc="S in sulfone"/>
-  <Type name="opls_494" class="opls_494" element="O" mass="15.9994" def="[O;X2]=S" desc="O in sulfone"/>
+  <Type name="opls_493" class="opls_493" element="S" mass="32.06"/>
+  <Type name="opls_494" class="opls_494" element="O" mass="15.9994"/>
   <!--
     A published source does not appear to exist for atom-types
     opls_496, opls_497, and opls_498. DOIs refer to the following
@@ -762,7 +762,7 @@
   <Type name="opls_762" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)[N;%opls_760]" desc="CT-NO2 nitromethane" doi="10.1002/jcc.1092"/>
   <Type name="opls_763" class="HC" element="H" mass="1.00800"  def="H([C;X4][N;%opls_760])" desc="HC-CT-NO2 alpha-H in nitroalkanes" overrides="opls_140" doi="10.1002/jcc.1092"/>
   <Type name="opls_764" class="CT" element="C" mass="12.01100" def="[C;X4](C)(H)(H)[N;%opls_760]" desc="CT-NO2 nitroethane" overrides="opls_136" doi="10.1002/jcc.1092"/>
-  <Type name="opls_765" class="opls_765" element="C" mass="12.011" def="[C;H1;X4]([C;X4])([C;X4])[N+](=O)[O-]" desc="central carbon bonded to the nitro group in 2-nitropropane"/>
+  <Type name="opls_765" class="opls_765" element="C" mass="12.011"/>
   <Type name="opls_766" class="opls_766" element="C" mass="12.011"/>
   <Type name="opls_767" class="NO" element="N" mass="14.0067"   def="[N;X3]([O;X1])([O;X1])[C;X3;r6]" desc="N in nitro Ar-NO2" overrides="opls_760" doi="10.1002/jcc.1092"/>
   <Type name="opls_768" class="CA" element="C" mass="12.01100"   def="[C;X3;r6][N;%opls_767]" desc="C(NO2) nitrobenzene" overrides="opls_145" doi="10.1002/jcc.1092"/>
@@ -788,14 +788,14 @@
   <Type name="opls_797" class="opls_797" mass="0.0"/>
   <Type name="opls_900" class="NT" element="N" mass="14.0067" def="[N;X3](H)(H)C" desc="N primary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_901" class="NT" element="N" mass="14.0067" def="[N;X3](H)([C;!%opls_235;!%opls_543])([C;!%opls_235;!%opls_543])" desc="N for secondary amines" doi="10.1021/ja984106u"/>
-  <Type name="opls_902" class="NT" element="N" mass="14.0067" def="[N;X3;H0;!$(N=*)]" desc="N tertiary  amines"/>
+  <Type name="opls_902" class="NT" element="N" mass="14.0067"/>
   <Type name="opls_903" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)([N;%opls_900])" desc="CH3(N) primary aliphatic amines" overrides="opls_906" doi="10.1021/ja984106u"/>
   <Type name="opls_904" class="CT" element="C" mass="12.011" def="[C;X4](H)(H)(H)([N;%opls_901])" desc="CH3(N) secondary aliphatic amines" overrides="opls_906" doi="10.1021/ja984106u"/>
   <Type name="opls_905" class="CT" element="C" mass="12.011"/>
   <Type name="opls_906" class="CT" element="C" mass="12.01100" def="[C;X4]([N;%opls_900])(H)(H)" desc="CH2(N) primary aliphatic amines" overrides="opls_136" doi="10.1021/ja984106u"/>
   <Type name="opls_906B" class="opls_906B" element="C" mass="12.011"/>
   <Type name="opls_907" class="opls_907" element="C" mass="12.011"/>
-  <Type name="opls_908" class="opls_908" element="C" mass="12.011" def="[C;H2;X4][N;X3;H0]" desc="CH2(N) tertiary  aliphatic amines, H(C) is #911"/>
+  <Type name="opls_908" class="opls_908" element="C" mass="12.011"/>
   <Type name="opls_909" class="H" element="H" mass="1.00800" def="H[N;%opls_900]" desc="H(N) primary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_910" class="H" element="H" mass="1.008" def="H[N;%opls_901]" desc="H(N) secondary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_911" class="HC" element="H" mass="1.00800" def="H([C;%opls_903,%opls_904,%opls_905,%opls_906,%opls_908])" desc="H(C) for C bonded to N in amines, diamines (aziridine H2,H3)" overrides="opls_140" doi="10.1021/ja984106u"/>
