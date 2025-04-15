@@ -720,7 +720,7 @@
   <Type name="opls_719" class="F" element="F" mass="18.9984" def="F[C;%opls_718]" desc="fluorobenzene F" overrides="opls_965" doi="10.1021/jp0484579"/>
   <Type name="opls_720" class="opls_720" element="C" mass="12.011"/>
   <Type name="opls_721" class="opls_721" element="F" mass="18.9984"/>
-  <Type name="opls_722" class="opls_722" element="Br" mass="79.904"/>
+  <Type name="opls_722" class="opls_722" element="Br" mass="79.904" def="[Br;X1]([C;X4]([H])([H])[H])" desc="Br in alkyl bromide" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_724" class="opls_724" element="C" mass="12.011"/>
   <Type name="opls_725" class="opls_725" element="C" mass="12.011"/>
   <Type name="opls_726" class="opls_726" element="F" mass="18.9984"/>
