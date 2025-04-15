@@ -788,7 +788,7 @@
   <Type name="opls_797" class="opls_797" mass="0.0"/>
   <Type name="opls_900" class="NT" element="N" mass="14.0067" def="[N;X3](H)(H)C" desc="N primary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_901" class="NT" element="N" mass="14.0067" def="[N;X3](H)([C;!%opls_235;!%opls_543])([C;!%opls_235;!%opls_543])" desc="N for secondary amines" doi="10.1021/ja984106u"/>
-  <Type name="opls_902" class="NT" element="N" mass="14.0067"/>
+  <Type name="opls_902" class="NT" element="N" mass="14.0067" def="[N;X3]([C;X4])([C;X4])([C;X4])" desc="tertiary aliphatic amine nitrogen" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_903" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)([N;%opls_900])" desc="CH3(N) primary aliphatic amines" overrides="opls_906" doi="10.1021/ja984106u"/>
   <Type name="opls_904" class="CT" element="C" mass="12.011" def="[C;X4](H)(H)(H)([N;%opls_901])" desc="CH3(N) secondary aliphatic amines" overrides="opls_906" doi="10.1021/ja984106u"/>
   <Type name="opls_905" class="CT" element="C" mass="12.011"/>
