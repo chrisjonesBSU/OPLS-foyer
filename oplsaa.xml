@@ -762,7 +762,7 @@
   <Type name="opls_762" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)[N;%opls_760]" desc="CT-NO2 nitromethane" doi="10.1002/jcc.1092"/>
   <Type name="opls_763" class="HC" element="H" mass="1.00800"  def="H([C;X4][N;%opls_760])" desc="HC-CT-NO2 alpha-H in nitroalkanes" overrides="opls_140" doi="10.1002/jcc.1092"/>
   <Type name="opls_764" class="CT" element="C" mass="12.01100" def="[C;X4](C)(H)(H)[N;%opls_760]" desc="CT-NO2 nitroethane" overrides="opls_136" doi="10.1002/jcc.1092"/>
-  <Type name="opls_765" class="opls_765" element="C" mass="12.011"/>
+  <Type name="opls_765" class="opls_765" element="C" mass="12.011" def="[C;X4]([N;X3](O)(O))([C;X4])([C;X4])" desc="CT-NO2 2-nitropropane" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_766" class="opls_766" element="C" mass="12.011"/>
   <Type name="opls_767" class="NO" element="N" mass="14.0067"   def="[N;X3]([O;X1])([O;X1])[C;X3;r6]" desc="N in nitro Ar-NO2" overrides="opls_760" doi="10.1002/jcc.1092"/>
   <Type name="opls_768" class="CA" element="C" mass="12.01100"   def="[C;X3;r6][N;%opls_767]" desc="C(NO2) nitrobenzene" overrides="opls_145" doi="10.1002/jcc.1092"/>
