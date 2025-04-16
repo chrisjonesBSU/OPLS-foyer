@@ -497,7 +497,7 @@
   <Type name="opls_490" class="CT" element="C" mass="12.011" def="[C;X4]([O;%opls_467])(H)(H)C" overrides="opls_182" desc="ethoxy carbon; C(H2OS) ethyl ester" doi="10.1002/jcc.1092"/>
   <Type name="opls_491" class="opls_491" element="C" mass="12.011"/>
   <Type name="opls_492" class="opls_492" element="C" mass="12.011"/>
-  <Type name="opls_493" class="opls_493" element="S" mass="32.06"/>
+  <Type name="opls_493" class="opls_493" element="S" mass="32.06" def="[S;X4]([#6])([#6])([O;X1])([O;X1])" desc="Sulfur in sulfone" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_494" class="opls_494" element="O" mass="15.9994"/>
   <!--
     A published source does not appear to exist for atom-types
