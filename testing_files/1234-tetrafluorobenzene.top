@@ -1,28 +1,30 @@
-; OPLSAA topology for 12-difluorobenzene
+; OPLSAA topology for 1234-tetrafluorobenzene
 ; 
 ; Jorgensen, W. L.; Tirado-Rives, J. Proc. Natl. Acad. Sci. U.S.A. 2005, 102, 6665.
 ; Carl Caleman, Paul J. van Maaren, Minyan Hong, Jochen S. Hub, Luciano T. Costa and David van der Spoel, Force Field Benchmark of Organic Liquids: Density, Enthalpy of Vaporization, Heat Capacities, Surface Tension, Isothermal Compressibility, Volumetric Expansion Coefficient, and Dielectric Constant, J. Chem. Theor. Comput. 8 (2012) http://dx.doi.org/10.1021/ct200731v
 ;
 ;
 #include "oplsaaff.itp"
+; CORRECTED DvdS 2011-02-15
+	
 [ moleculetype ]
 ; Name            nrexcl
-12-difluorobenzene  3
+1234-tetrafluorobenzene  3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
-         1  opls_728         1       LIG         F         1      -0.2   18.9984
-         2  opls_727         1       LIG         C         2       0.2    12.011
-         3  opls_145         1       LIG         C         3    -0.115    12.011
-         4  opls_146         1       LIG         H         4     0.115     1.008
-         5  opls_145         1       LIG         C         5    -0.115    12.011
-         6  opls_146         1       LIG         H         6     0.115     1.008
-         7  opls_145         1       LIG         C         7    -0.115    12.011
-         8  opls_146         1       LIG         H         8     0.115     1.008
-         9  opls_145         1       LIG         C         9    -0.115    12.011
-        10  opls_146         1       LIG         H        10     0.115     1.008
-        11  opls_727         1       LIG         C        11       0.2    12.011
-        12  opls_728         1       LIG         F        12      -0.2   18.9984
+         1  opls_721         1       UNK         F         1     -0.13   18.9984
+         2  opls_720         1       UNK         C         2      0.13    12.011
+         3  opls_720         1       UNK         C         3      0.13    12.011
+         4  opls_721         1       UNK         F         4     -0.13   18.9984
+         5  opls_727         1       UNK         C         5      0.2     12.011
+         6  opls_728         1       UNK         F         6     -0.2    18.9984
+         7  opls_145         1       UNK         C         7    -0.115    12.011
+         8  opls_146         1       UNK         H         8     0.115     1.008
+         9  opls_145         1       UNK         C         9    -0.115    12.011
+        10  opls_146         1       UNK         H        10     0.115     1.008
+        11  opls_727         1       UNK         C        11      0.2     12.011
+        12  opls_728         1       UNK         F        12     -0.2    18.9984
 
 [ bonds ]
 ;  ai    aj funct            c0            c1            c2            c3
@@ -127,6 +129,6 @@
    11     2     3     5     1   180     4.6     2
 
 [ system ]
-12-difluorobenzene GAS
+1234-tetrafluorobenzene GAS
 [ molecules ]
-12-difluorobenzene 1
+1234-tetrafluorobenzene 1
