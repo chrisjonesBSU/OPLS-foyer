@@ -176,7 +176,7 @@
   <Type name="opls_170" class="opls_170" element="H" mass="1.008"/>
   <Type name="opls_171" class="opls_171" element="O" mass="15.9994" def="[O;X2]([H])([C;X4])" desc="O in triols" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_172" class="opls_172" element="H" mass="1.008" def="[H;X1]([O;%opls_171])" desc="H(O) in triols" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_173" class="opls_173" element="C" mass="12.011"/>
+  <Type name="opls_173" class="opls_173" element="C" mass="12.011" def="[C;X4]([H])([H])([O;X2]([H]))([C;X4])" desc="C(H2)(OH) in triols" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_174" class="opls_174" element="C" mass="12.011"/>
   <Type name="opls_175" class="opls_175" element="C" mass="12.011"/>
   <Type name="opls_176" class="opls_176" element="H" mass="1.008"/>
