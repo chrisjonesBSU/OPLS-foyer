@@ -192,7 +192,7 @@
   <Type name="opls_187" class="opls_187" element="O" mass="15.9994"/>
   <Type name="opls_188" class="opls_188" element="H" mass="1.008"/>
   <Type name="opls_189" class="opls_189" element="C" mass="12.011" def="[C;X4]([O;X2]([C;X4]))([O;X2]([C;X4]))([H])([H])" desc="Central carbon in dimethoxymethane" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_190" class="opls_190" element="H" mass="1.008"/>
+  <Type name="opls_190" class="opls_190" element="H" mass="1.008" def="[H;X1]([C;%opls_189])" desc="H bonded to opls_189 in dimethoxymethane" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_191" class="opls_191" element="C" mass="12.011"/>
   <Type name="opls_192" class="opls_192" element="H" mass="1.008"/>
   <Type name="opls_193" class="CO" element="C" mass="12.011" def="[C;X4](O)(O)(C)H" desc="C(HCO2), acetal OCHRO" doi="10.1021/ja9621760"/>
