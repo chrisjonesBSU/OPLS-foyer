@@ -1145,6 +1145,13 @@
   <Bond class1="C_2" class2="CW" length="0.149" k="334720.0"/>
   <Bond class1="C_3" class2="CW" length="0.149" k="334720.0"/>
   <Bond class1="O2" class2="S" length="0.153" k="400000.0"/>
+  <!--
+    All bond types below this point were added from DOI https://doi.org/10.1021/ct200731v 
+    Parameters were obtained from the OPLS files at https://virtualchemistry.org/ff.php
+  --> 
+  <Bond class1="SY2" class2="OY" length="0.14400" k="585760.0"/>
+  <Bond class1="SY2" class2="CT" length="0.17700" k="284512.0"/>
+
  </HarmonicBondForce>
  <HarmonicAngleForce>
   <Angle class1="HW" class2="OW" class3="HW" angle="1.91113553093" k="627.6"/>
@@ -2079,6 +2086,16 @@
   <Angle class1="CA" class2="S" class3="CT" angle="1.81863308058" k="518.816"/>
   <Angle class1="OH" class2="C" class3="N" angle="2.01463355558" k="292.88"/>
   <Angle class1="O2" class2="S" class3="CT" angle="1.86750229963" k="400.0"/>
+  <!--
+    All angle types below this point were added from DOI https://doi.org/10.1021/ct200731v 
+    Parameters were obtained from the OPLS files at https://virtualchemistry.org/ff.php
+  --> 
+  <Angle class1="SY2" class2="CT" class3="HC" angle="1.9111355" k="292.880"/>
+  <Angle class1="SY2" class2="CT" class3="CT" angle="1.8954276" k="418.400"/>
+  <Angle class1="CT" class2="SY2" class3="CT" angle="1.78024" k="518.816"/>
+  <Angle class1="CT" class2="SY2" class3="OY" angle="1.9006636" k="619.232"/>
+  <Angle class1="OY" class2="SY2" class3="OY" angle="2.07694" k="870.272"/>
+
  </HarmonicAngleForce>
  <RBTorsionForce>
   <Proper class1="Br" class2="C" class3="CB" class4="CT" c0="0.0" c1="0.0" c2="0.0" c3="0.0" c4="0.0" c5="0.0"/>
