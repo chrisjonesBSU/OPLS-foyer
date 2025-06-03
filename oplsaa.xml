@@ -537,7 +537,7 @@
   <Type name="opls_520" class="NC" element="N" mass="14.0067" def="[N;X2;r6]1[C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6]1" desc="N in pyridine" doi="10.1016/S0166-1280(97)00237-6"/>
   <Type name="opls_521" class="CA" element="C" mass="12.011" def="[C;X3;r6][N;%opls_520]" desc="C1 in pyridine" doi="10.1016/S0166-1280(97)00237-6"/>
   <Type name="opls_522" class="CA" element="C" mass="12.011" def="[C;X3;r6][C;%opls_521]" desc="C2 in pyridine" overrides="opls_142" doi="10.1016/S0166-1280(97)00237-6"/>
-  <Type name="opls_523" class="CA" element="C" mass="12.011" def="[C;X3;r6]([C;%opls_522])[C;%opls_522]" desc="C3 in pyridine" overrides="opls_142" doi="10.1016/S0166-1280(97)00237-6"/>
+  <Type name="opls_523" class="CA" element="C" mass="12.011" def="[C;X3;r6]([C;%opls_522])[C;%opls_522]" desc="C3 in pyridine" overrides="opls_142, opls_141" doi="10.1016/S0166-1280(97)00237-6"/>
   <Type name="opls_524" class="HA" element="H" mass="1.008" def="H[C;%opls_521]" desc="H1 in pyridine" overrides="opls_144" doi="10.1016/S0166-1280(97)00237-6"/>
   <Type name="opls_525" class="HA" element="H" mass="1.008" def="H[C;%opls_522]" desc="H2 in pyridine" overrides="opls_144" doi="10.1016/S0166-1280(97)00237-6"/>
   <Type name="opls_526" class="HA" element="H" mass="1.008" def="H[C;%opls_523]" desc="H3 in pyridine" overrides="opls_144" doi="10.1016/S0166-1280(97)00237-6"/>
@@ -675,7 +675,7 @@
   <Type name="opls_671" class="opls_671" element="C" mass="12.011"/>
   <Type name="opls_672" class="opls_672" element="C" mass="12.011"/>
   <Type name="opls_673" class="opls_673" element="C" mass="12.011"/>
-  <Type name="opls_674" class="opls_674" element="C" mass="12.011"/>
+  <Type name="opls_674" class="CT" element="C" mass="12.011" def="[C;X4]([C;X3;r6]([C;X3;r6]([C;X3;r6](N))))(H)(H)(H)" desc="CH3, 4-methyl pyrimidine" overrides="opls_135" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_675" class="opls_675" element="C" mass="12.011"/>
   <Type name="opls_676" class="opls_676" element="C" mass="12.011"/>
   <Type name="opls_677" class="opls_677" element="C" mass="12.011"/>
