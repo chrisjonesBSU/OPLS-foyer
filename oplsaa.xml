@@ -801,7 +801,7 @@
   <Type name="opls_911" class="HC" element="H" mass="1.00800" def="H([C;%opls_903,%opls_904,%opls_905,%opls_906,%opls_908,%opls_912])" desc="H(C) for C bonded to N in amines, diamines (aziridine H2,H3)" overrides="opls_140" doi="10.1021/ja984106u"/>
   <Type name="opls_912" class="CT" element="C" mass="12.011" def="[C;X4]([C;X4]([H])([H])[C])([C;X4]([H])([H])[C])([N;X3]([H])[H])" desc="CH in primary isopropyl amine" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_912B" class="opls_912B" element="C" mass="12.011"/>
-  <Type name="opls_913" class="opls_913" element="C" mass="12.011"/>
+  <Type name="opls_913" class="CT" element="C" mass="12.011" def="[C;X4]([N;X3](H)(H))(C)(C)(C)" desc="Primary carbon in tert-butylamine" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_914" class="opls_914" element="C" mass="12.011"/>
   <Type name="opls_915" class="opls_915" element="C" mass="12.011"/>
   <Type name="opls_916" class="opls_916" element="C" mass="12.011"/>
