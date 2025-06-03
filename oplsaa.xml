@@ -489,8 +489,8 @@
   <Type name="opls_481" class="opls_481" element="H" mass="1.008"/>
   <Type name="opls_482" class="opls_482" element="C" mass="12.011"/>
   <Type name="opls_483" class="opls_483" element="H" mass="1.008"/>
-  <Type name="opls_484" class="opls_484" element="C" mass="12.011"/>
-  <Type name="opls_485" class="opls_485" element="H" mass="1.008"/>
+  <Type name="opls_484" class="opls_484" element="C" mass="12.011" def="[C;X4]([S;X4](O)(O))(C)(H)(H)" desc="C bonded to SO2 in sulfolane" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_485" class="opls_485" element="H" mass="1.008" def="H[%opls_484,!%opls_136]" overrides="opls_140"/>
   <Type name="opls_486" class="opls_486" element="C" mass="12.011"/>
   <Type name="opls_487" class="opls_487" element="H" mass="1.008"/>
   <Type name="opls_488" class="opls_488" element="C" mass="12.011"/>
