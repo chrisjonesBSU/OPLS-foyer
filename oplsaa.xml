@@ -450,7 +450,7 @@
   <Type name="opls_441" class="O2" element="O" mass="15.9994" def="[O;X1][P;X4]" desc="Oxygen in O=P phosphates" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_442" class="OS" element="O" mass="15.9994" def="[O;X2]([P;X4]([O;X1])([O;X2])([O;X2]))[#6]" desc="O in akyl-phosphates bonded to akyl group" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_443" class="CT" element="C" mass="12.011" def="[C;X4][O;X2][P;X4]([O;X2])([O;X2])(O)" desc="Carbon in dimethyl or trimethyl phosphate" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_444" class="opls_444" element="H" mass="1.008" def="[H][C;%opls_443;X4]" desc="H bonded to opls_443 in akyl-phosphate" overrides="opls_140, opls_176" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_444" class="HC" element="H" mass="1.008" def="[H][C;%opls_443;X4]" desc="H bonded to opls_443 in akyl-phosphate" overrides="opls_140, opls_176" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_445" class="opls_445" element="P" mass="30.97376"/>
   <Type name="opls_446" class="opls_446" element="O" mass="15.9994"/>
   <Type name="opls_447" class="opls_447" element="O" mass="15.9994"/>
