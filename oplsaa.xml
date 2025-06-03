@@ -671,7 +671,7 @@
   <Type name="opls_654" class="opls_654" element="H" mass="1.008"/>
   <Type name="opls_655" class="opls_655" element="H" mass="1.008"/>
   <Type name="opls_656" class="opls_656" element="H" mass="1.008"/>
-  <Type name="opls_670" class="opls_670" element="C" mass="12.011"/>
+  <Type name="opls_670" class="CT" element="C" mass="12.011" def="[C;X4]([C;X3](N))(H)(H)(H)" desc="CH3,2-methyl pyridine" overrides="opls_135" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_671" class="opls_671" element="C" mass="12.011"/>
   <Type name="opls_672" class="opls_672" element="C" mass="12.011"/>
   <Type name="opls_673" class="opls_673" element="C" mass="12.011"/>
