@@ -150,7 +150,7 @@
   <Type name="opls_145" class="CA" element="C" mass="12.01100" def="[C;X3;r6]1[C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6]1" overrides="opls_141,opls_142" doi="10.1021/ja9621760"/>
   <Type name="opls_145B" class="C!" element="C" mass="12.01100"/>
   <Type name="opls_146" class="HA" element="H" mass="1.00800"  def="[H][C;%opls_145]" overrides="opls_144" desc="benzene H" doi="10.1021/ja9621760"/>
-  <Type name="opls_147" class="opls_147" element="C" mass="12.011"/>
+  <Type name="opls_147" class="CA" element="C" mass="12.011" def="[C;X3;r6]([C;X3;r6](Cl))" desc="Naphthalene fusion C" overrides="opls_145" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_148" class="CT" element="C" mass="12.01100"   def="[C;X4]([C;%opls_145])(H)(H)H" desc="toluene CH3" overrides="opls_149,opls_135" doi="10.1021/ja9621760"/>
   <Type name="opls_149" class="CT" element="C" mass="12.01100"   def="[C;X4]([C;%opls_145])(H)(H)*" desc="ethyl benzene CH2" overrides="opls_136" doi="10.1021/ja9621760"/>
   <Type name="opls_150" class="opls_150" element="C" mass="12.011"/>
