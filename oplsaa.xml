@@ -174,14 +174,14 @@
   <Type name="opls_168" class="HO" element="H" mass="1.008" def="H[O;%opls_167]" overrides="opls_155" doi="10.1021/ja9621760"/>
   <Type name="opls_169" class="opls_169" element="O" mass="15.9994"/>
   <Type name="opls_170" class="opls_170" element="H" mass="1.008"/>
-  <Type name="opls_171" class="opls_171" element="O" mass="15.9994" def="[O;X2]([H])([C;X4])" desc="O in triols" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_172" class="opls_172" element="H" mass="1.008" def="[H;X1]([O;%opls_171])" desc="H(O) in triols" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_173" class="opls_173" element="C" mass="12.011" def="[C;X4]([H])([H])([O;X2]([H]))([C;X4])" desc="C(H2)(OH) in triols" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_174" class="opls_174" element="C" mass="12.011" def="[C;X4]([H])([O;X2]([H]))([C;X4])([C;X4])"/>
+  <Type name="opls_171" class="opls_171" element="O" mass="15.9994" def="[O;X2]([H])([C;X4])" desc="O in triols" overrides="opls_154" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_172" class="HO" element="H" mass="1.008" def="[H;X1]([O;%opls_171])" desc="H(O) in triols" overrides="opls_155" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_173" class="CT" element="C" mass="12.011" def="[C;X4]([H])([H])([O;X2]([H]))([C;X4])" desc="C(H2)(OH) in triols" overrides="opls_157" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_174" class="CT" element="C" mass="12.011" def="[C;X4]([H])([O;X2]([H]))([C;X4])([C;X4])" desc="C(HROH): triols" overrides="opls_158" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_175" class="opls_175" element="C" mass="12.011"/>
-  <Type name="opls_176" class="opls_176" element="H" mass="1.008" def="[H][C;X4]([H])([O;X2]([H]))[C;X4]" desc="H(CXOH): triols (C is opls_173)" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_176" class="HC" element="H" mass="1.008" def="[H][C;X4](O)" desc="H(CXOH): triols" overrides="opls_140" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_178" class="opls_178" element="C" mass="12.011"/>
-  <Type name="opls_179" class="opls_179" element="O" mass="15.9994" def="[O;X2]([C;X3;r6])([C;X4])" desc="ether oxygen bonded to an alkyl and aryl group (anisole)" overrides="opls_180" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_179" class="OS" element="O" mass="15.9994" def="[O;X2]([C;X3;r6])([C;X4])" desc="ether oxygen bonded to an alkyl and aryl group (anisole)" overrides="opls_180" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_180" class="OS" element="O" mass="15.9994"  def="[O;X2](C)C" desc="O, dialkyl ether" doi="10.1021/ja9621760"/>
   <Type name="opls_181" class="CT" element="C" mass="12.01100" def="[C;X4]([O;%opls_180])(H)(H)H" desc="C(H3OR), methyl ether" overrides="opls_182" doi="10.1021/ja9621760"/>
   <Type name="opls_182" class="CT" element="C" mass="12.01100" def="[C;X4]([O;%opls_180])(H)(H)C" desc="C(H2OR), methyl ether" doi="10.1021/ja9621760"/>
