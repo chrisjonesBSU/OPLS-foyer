@@ -174,9 +174,9 @@
   <Type name="opls_168" class="HO" element="H" mass="1.008" def="H[O;%opls_167]" overrides="opls_155" doi="10.1021/ja9621760"/>
   <Type name="opls_169" class="opls_169" element="O" mass="15.9994"/>
   <Type name="opls_170" class="opls_170" element="H" mass="1.008"/>
-  <Type name="opls_171" class="OH" element="O" mass="15.9994" def="[O;X2]([H])([C;X4])" desc="O in triols" overrides="opls_154" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_171" class="OH" element="O" mass="15.9994" def="[O;X2]([H])([C;X4]([C;X4](O)[C;X4](O)(H)))" desc="O in triols" overrides="opls_154" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_172" class="HO" element="H" mass="1.008" def="[H;X1]([O;%opls_171])" desc="H(O) in triols" overrides="opls_155" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_173" class="CT" element="C" mass="12.011" def="[C;X4]([H])([H])([O;X2]([H]))([C;X4])" desc="C(H2)(OH) in triols" overrides="opls_157" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_173" class="CT" element="C" mass="12.011" def="[C;X4]([H])([H])([O;X2]([H]))([C;X4])" desc="C(H2)(OH) in triols" overrides="opls_157, opls_158" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_174" class="CT" element="C" mass="12.011" def="[C;X4]([H])([O;X2]([H]))([C;X4])([C;X4])" desc="C(HROH): triols" overrides="opls_158" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_175" class="opls_175" element="C" mass="12.011"/>
   <Type name="opls_176" class="HC" element="H" mass="1.008" def="[H][C;X4](O)" desc="H(CXOH): triols" overrides="opls_140" doi="https://doi.org/10.1021/ct200731v"/>
@@ -220,10 +220,10 @@
   <Type name="opls_215" class="CT" element="C" mass="12.011" def="[C;X4]([S;%opls_203])(H)" desc="C in 2R-CH-S-S-*"  overrides="opls_216, opls_211" doi="10.1021/ja9621760"/>
   <Type name="opls_216" class="CT" element="C" mass="12.011" def="[C;X4][S;%opls_203]" desc="C in 3R-C-S-S-*" overrides="opls_212" doi="10.1021/ja9621760"/>
   <Type name="opls_217" class="CT" element="C" mass="12.011" def="[C;X4]([S;%opls_200])(H)(H)(H)" desc="C in CH3-S-H (methanethiol)" overrides="opls_211, opls_207, opls_209, opls_206" doi="10.1021/ja9621760"/>
-  <Type name="opls_218" class="opls_218" element="C" mass="12.011"/>
+  <Type name="opls_218" class="CT" element="C" mass="12.011" def="[C;X4]([C;%opls_221])(O)(H)(H)" overrides="opls_149, opls_157, opls_158"/>
   <Type name="opls_219" class="opls_219" element="C" mass="12.011"/>
   <Type name="opls_220" class="opls_220" element="C" mass="12.011"/>
-  <Type name="opls_221" class="opls_221" element="C" mass="12.011"/>
+  <Type name="opls_221" class="CA" element="C" mass="12.011" def="[C;X3;r6]([C;X3;r6])([C;X3;r6])([C;X4](O)(H)(H))" overrides="opls_145"/>
   <Type name="opls_222" class="opls_222" element="S" mass="32.06"/>
   <Type name="opls_223" class="opls_223" element="C" mass="12.011"/>
   <Type name="opls_223B" class="opls_223B" element="C" mass="12.011"/>
