@@ -731,8 +731,8 @@
   <Type name="opls_731" class="opls_731" element="C" mass="12.011"/>
   <Type name="opls_732" class="I" element="I" mass="126.9045" def="[I;X1][C;X4](C)(C)(H)" desc="I in Iodopropane" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_733" class="opls_733" element="C" mass="12.011"/>
-  <Type name="opls_734" class="opls_734" element="S" mass="32.06"/>
-  <Type name="opls_735" class="opls_735" element="C" mass="12.011"/>
+  <Type name="opls_734" class="SH" element="S" mass="32.06" def="[S;X2]([C;X3;r6])(H)" overrides="opls_200" desc="Thiol with R group in aromatic ring" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_735" class="CA" element="C" mass="12.011" def="[C;X3;r6]([S]([H]))([C;X3;r6])([C;X3;r6])" overrides="opls_145"  desc="Aromatic C bonded to SH (opls_734)" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_736" class="opls_736" element="C" mass="12.011"/>
   <Type name="opls_737" class="opls_737" element="C" mass="12.011"/>
   <Type name="opls_738" class="opls_738" element="C" mass="12.011"/>
