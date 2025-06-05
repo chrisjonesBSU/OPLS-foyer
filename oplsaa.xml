@@ -804,7 +804,7 @@
   <Type name="opls_913" class="CT" element="C" mass="12.011" def="[C;X4]([N;X3](H)(H))(C)(C)(C)" desc="Primary carbon in tert-butylamine" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_914" class="opls_914" element="C" mass="12.011"/>
   <Type name="opls_915" class="opls_915" element="C" mass="12.011"/>
-  <Type name="opls_916" class="opls_916" element="C" mass="12.011"/>
+  <Type name="opls_916" class="CA" element="C" mass="12.011" def="[C;X3;r6]([N;X3](H)(H))([C;X3;r6]([Cl]))([C;X3;r6](H))" overrides="opls_145, opls_147" desc="C-NH2 in chloroaniline" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_917" class="CA" element="C" mass="12.011" def="[C;X3;r6]([N;%opls_901])" desc="Carbon on benzene ring in N-Methylnitroaniline" overrides="opls_145" doi="10.1021/ja984106u"/>
   <Type name="opls_918" class="opls_918" element="C" mass="12.011"/>
   <Type name="opls_925" class="CZ" element="C" mass="12.011" def="[C;X2](C)H" desc="alkyne RC%CH terminal C"/>
