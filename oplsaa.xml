@@ -231,8 +231,8 @@
   <Type name="opls_224B" class="opls_224B" element="C" mass="12.011"/>
   <Type name="opls_225" class="opls_225" element="C" mass="12.011"/>
   <Type name="opls_225B" class="opls_225B" element="C" mass="12.011"/>
-  <Type name="opls_226" class="opls_226" element="Cl" mass="35.453"/>
-  <Type name="opls_227" class="opls_227" element="C" mass="12.011"/>
+  <Type name="opls_226" class="CL" element="Cl" mass="35.453" def="[Cl;X1]([C;%opls_227])" desc="chloroalkene Cl" overrides="opls_401" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_227" class="CM" element="C" mass="12.011" def="[C;X3;!r6]([C;X3;!r6](H)(H))(Cl)(Cl)" dec="chloroalkene C (ClH-C=)" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_228" class="opls_228" element="C" mass="12.011"/>
   <Type name="opls_229" class="opls_229" element="C" mass="12.011"/>
   <Type name="opls_230" class="opls_230" element="C" mass="12.011"/>
@@ -1152,6 +1152,7 @@
   <Bond class1="SY2" class2="OY" length="0.14400" k="585760.0"/>
   <Bond class1="SY2" class2="CT" length="0.17700" k="284512.0"/>
   <Bond class1="CT" class2="I" length="0.21450" k="205016.0"/>
+  <Bond class1="CM" class2="CL" length="0.17250" k="251040.0"/>
  </HarmonicBondForce>
  <HarmonicAngleForce>
   <Angle class1="HW" class2="OW" class3="HW" angle="1.91113553093" k="627.6"/>
@@ -2099,6 +2100,8 @@
   <Angle class1="I" class2="CT" class3="I" angle="1.9495328" k="652.704"/>
   <Angle class1="HC" class2="CT" class3="I" angle="1.8779743" k="426.768"/>
   <Angle class1="CA" class2="CA" class3="I" angle="2.0944" k="627.600"/>
+  <Angle class1="CM" class2="CM" class3="CL" angle="2.120575" k="627.600"/>
+  <Angle class1="CL" class2="CM" class3="CL" angle="1.989675" k="502.080"/>
 
  </HarmonicAngleForce>
  <RBTorsionForce>
