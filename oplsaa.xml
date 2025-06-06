@@ -721,9 +721,9 @@
   <Type name="opls_720" class="CA" element="C" mass="12.011" def="[C;X3;r6]([F])([C;X3;r6](F))([C;X3;r6](F))" overrides="opls_145"/>
   <Type name="opls_721" class="F" element="F" mass="18.9984" def="[F;X1]([C;%opls_720])" overrides="opls_719"/>
   <Type name="opls_722" class="Br" element="Br" mass="79.904" def="[Br;X1]([C;%opls_152])" desc="Br in alkyl bromide" doi="https://doi.org/10.1021/ct200731v"/>
-  <Type name="opls_724" class="opls_724" element="C" mass="12.011"/>
-  <Type name="opls_725" class="opls_725" element="C" mass="12.011"/>
-  <Type name="opls_726" class="opls_726" element="F" mass="18.9984"/>
+  <Type name="opls_724" class="CA" element="C" mass="12.011" def="[C;X3;r6]([C;%opls_725])([C;X3;r6])([C;X3;r6])" desc="Benzene C bonded to -CF3 (opls_725)" overrides="opls_145" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_725" class="CT" element="C" mass="12.011" def="[C;X4](F)(F)(F)([C;X3;r6])" overrides="opls_672, opls_961" desc="C in F3-C-benzene" doi="https://doi.org/10.1021/ct200731v"/>
+  <Type name="opls_726" class="F" element="F" mass="18.9984" def="[F;X1]([C;%opls_725])" overrides="opls_965" desc="F in tri-fluoro methyl groups" doi="https://doi.org/10.1021/ct200731v"/>
   <Type name="opls_727" class="CA" element="C" mass="12.011" def="[C;X3;r6]([F;%opls_728])([C;%opls_720])" overrides="opls_145"/>
   <Type name="opls_728" class="F" element="F" mass="18.9984" def="[F;X1]([C;X3;r6]([C;%opls_720])([C;X3;r6](H)))"/>
   <Type name="opls_729" class="opls_729" element="C" mass="12.011"/>
