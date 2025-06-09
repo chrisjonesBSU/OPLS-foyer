@@ -2102,6 +2102,7 @@
   <Angle class1="CA" class2="CA" class3="I" angle="2.0944" k="627.600"/>
   <Angle class1="CM" class2="CM" class3="CL" angle="2.120575" k="627.600"/>
   <Angle class1="CL" class2="CM" class3="CL" angle="1.989675" k="502.080"/>
+  <Angle class1="O_2" class2="C" class3="OS" angle="2.153736" k="694.544"/>
 
  </HarmonicAngleForce>
  <RBTorsionForce>
